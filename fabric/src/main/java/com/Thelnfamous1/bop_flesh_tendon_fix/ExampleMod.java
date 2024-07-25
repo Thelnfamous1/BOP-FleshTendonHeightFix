@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.Thelnfamous1.bop_flesh_tendon_fix;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +12,6 @@ public class ExampleMod implements ModInitializer {
         // project.
 
         // Use Fabric to bootstrap the Common mod.
-        Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
     }
 }

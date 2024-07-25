@@ -24,3 +24,9 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+[[dependencies.${mod_id}]]
+modId = "biomesoplenty"
+mandatory = true
+versionRange = "[18.0.0.560, 18.1.0.599)"
+ordering = "NONE"
+side = "BOTH"

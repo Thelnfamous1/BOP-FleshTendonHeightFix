@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package com.Thelnfamous1.bop_flesh_tendon_fix.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.Thelnfamous1.bop_flesh_tendon_fix.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

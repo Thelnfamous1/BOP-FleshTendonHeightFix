@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package com.Thelnfamous1.bop_flesh_tendon_fix.platform.services;
 
 public interface IPlatformHelper {
 
