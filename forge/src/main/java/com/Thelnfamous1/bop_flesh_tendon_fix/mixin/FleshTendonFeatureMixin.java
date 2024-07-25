@@ -12,6 +12,6 @@ public class FleshTendonFeatureMixin {
 
     @ModifyConstant(method = "place", constant = @Constant(intValue = 126))
     private int fixHardcodedWorldHeight(int constant, FeaturePlaceContext<NoneFeatureConfiguration> context){
-        return context.level().getHeight() - 2;
+        return context.level().getMinBuildHeight() + context.level().getHeight() - 1;
     }
 }
